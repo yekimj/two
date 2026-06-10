@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<remote-actions version="1.0" actionset_label="@string/app_name">
+    <!-- Samsung Air actions maps priority 2 to S Pen double click for RemoteActions v1.0. -->
+    <action
+        id="open_dictionary"
+        label="@string/spen_dictionary_action"
+        priority="2"
+        trigger_key="CTRL_LEFT+D">
+        <preference name="gesture" value="double_click" />
+        <preference name="button_only" value="true" />
+    </action>
+</remote-actions>
